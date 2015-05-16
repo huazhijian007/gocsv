@@ -1,6 +1,6 @@
 # gocsv
 read cvs file for golangfile,it's so easy
-------------------------------------------
+
 csv file content example:
 idx,name,age,sex
 comment,it is name,it is age,it is sex
@@ -8,12 +8,10 @@ comment,it is name,it is age,it is sex
 2,momo,27,0
 3,james,2,1
 
------------------------------------------
 Attention:
 1.the first column must be index ,it's integer
 2.the second can be comment,you can comment somthing for this fileld
 
-----------------------------------------
 example for use gocsv :
 
 func main() {
@@ -29,5 +27,3 @@ func main() {
 	fmt.Printf("name:%s\n", name)
 	return
 }
-
--------------------------------------
