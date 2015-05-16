@@ -1,5 +1,6 @@
 # gocsv
-read cvs file for golangfile,it's so easy
+author:lantin_fang@163.com
+read cvs file for golang,it's so easy
 
 csv file content example:
 
